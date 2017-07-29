@@ -1,0 +1,36 @@
+table{
+    align-content: center;
+}
+
+.square{
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.square-up, .square-mid{
+    border-bottom: 2px solid grey;
+}
+
+.square-center{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+.square:hover{
+    background-color: whitesmoke;
+}
+.square:active{
+    background-color: #84879b;
+}
+
+#title{
+    margin-bottom: 3em;
+    border-bottom: 1px solid grey;
+}
+
+.btn{
+    margin-top: 1.8em;
+    
+}

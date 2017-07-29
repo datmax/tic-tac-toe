@@ -1,5 +1,5 @@
-table{
-    align-content: center;
+button{
+    outline: none !important;
 }
 
 .square{
@@ -19,10 +19,10 @@ table{
 }
 
 .square:hover{
-    background-color: whitesmoke;
+    background-color: #C3DFE8;
 }
 .square:active{
-    background-color: #84879b;
+    background-color: #A0CBD9;
 }
 
 #title{
@@ -30,7 +30,7 @@ table{
     border-bottom: 1px solid grey;
 }
 
-.btn{
+
+#clear{
     margin-top: 1.8em;
-    
 }

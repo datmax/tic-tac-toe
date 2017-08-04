@@ -2,6 +2,7 @@ button{
     outline: none !important;
 }
 
+
 .square{
     width: 10em;
     height: 10em;
@@ -20,6 +21,7 @@ button{
 
 .square:hover{
     background-color: #C3DFE8;
+    cursor:pointer;
 }
 .square:active{
     background-color: #A0CBD9;
@@ -33,4 +35,12 @@ button{
 
 #clear{
     margin-top: 1.8em;
+}
+
+td{
+    font-weight: bold;
+}
+
+#action{
+    opacity: 0;
 }
